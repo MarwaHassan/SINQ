@@ -123,7 +123,7 @@ def get_wikitext2_train(tokenizer, seed=0, seqlen=2048):
 
 def get_wikitext2_test4train(tokenizer, seed=0, seqlen=2048):
     dataset = load_dataset(
-        "wikitext",
+        "Salesforce/wikitext",
         "wikitext-2-raw-v1",
         split="test",
     )
